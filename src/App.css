@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  /* border: 1px solid #343a40; */
+  margin: auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  padding: 0 15px;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #343a40;
+}
+
+@media (min-width: 800px) {
+  .App {
+    padding: 0 100px;
+    margin-top: 6vh;
+    min-height: 90vh;
+  }
+}

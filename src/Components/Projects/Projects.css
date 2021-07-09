@@ -1,0 +1,120 @@
+.Caro {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 10%;
+}
+
+button.rec-dot {
+  background-color: #e76f51;
+  box-shadow: 0 0 1px 3px rgba(231, 111, 81, 0.5);
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(231, 111, 81, 0.5);
+}
+
+.rec.rec-arrow {
+  border-radius: 50%;
+  background-color: #e76f51;
+}
+
+.rec.rec-arrow:hover {
+  background-color: #f7c1b3;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+.butn {
+  width: 60px;
+  height: 30px;
+  background: linear-gradient(to bottom, #e76f51 0%, #e76f51 100%); /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  /* border-bottom: 4px solid #e76f51; */
+  padding: auto;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  text-align: start;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  /* Just for presentation */
+  display: block;
+  /* margin: 0 auto; */
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.butn:active {
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+  top: 1px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(49, 48, 48);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: x-small;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgb(68, 68, 68) transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (min-width: 800px) {
+  .Caro {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 3%;
+  }
+}
+
+button {
+  text-decoration: none;
+}

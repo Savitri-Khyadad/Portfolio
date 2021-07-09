@@ -1,0 +1,14 @@
+.about{
+    margin: 3%;
+    color: #e76f51;
+}
+
+.about ul{
+    display: block;
+    margin-left: 2%;
+}
+
+.about ul#list li {
+    margin-bottom: 0.5%;
+    display: block;
+}
