@@ -43,8 +43,8 @@ function Carousels() {
               <CardBody>
                 <CardTitle tag="h7">Application for Baby Products</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
-                  <div class="tooltip">An Angular Website
-                    <span class="tooltiptext">A full stack web application using MEAN stack for baby products.</span>
+                  <div className="tooltip">An Angular Website
+                    <span className="tooltiptext">A full stack web application using MEAN stack for baby products.</span>
                   </div>
                 </CardSubtitle>
                 <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/ecomm-baby-products')}>Open</Button>
@@ -57,8 +57,8 @@ function Carousels() {
               <CardBody>
                 <CardTitle tag="h7">Current Weather App</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
-                  <div class="tooltip">A React website
-                    <span class="tooltiptext">An app that shows the current weather of a city entered.</span>
+                  <div className="tooltip">A React website
+                    <span className="tooltiptext">An app that shows the current weather of a city entered.</span>
                   </div>
                 </CardSubtitle>
                 <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Weather-app')}>Open</Button>
@@ -71,8 +71,8 @@ function Carousels() {
               <CardBody>
                 <CardTitle tag="h7" width="100%">Maize Disease Classification</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
-                  <div class="tooltip">An Android Application
-                    <span class="tooltiptext">An android application using Keras that detects and classifies the disease in a maize leaf.</span>
+                  <div className="tooltip">An Android Application
+                    <span className="tooltiptext">An android application using Keras that detects and classifies the disease in a maize leaf.</span>
                   </div>
                 </CardSubtitle>
                 <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Maize-Disease-Classification')}>Open</Button>
@@ -85,8 +85,8 @@ function Carousels() {
               <CardBody>
                 <CardTitle tag="h7">Burger Builder App</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
-                  <div class="tooltip">A react website
-                    <span class="tooltiptext">A react app to build and order customized burgers!.</span>
+                  <div className="tooltip">A react website
+                    <span className="tooltiptext">A react app to build and order customized burgers!.</span>
                   </div>
                 </CardSubtitle>
                 <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Burger-builder-app')}>Open</Button>
