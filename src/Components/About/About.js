@@ -40,6 +40,12 @@ const About = () => {
                 </div>
             </div>
             <br></br>
+            <h3>Internships</h3>
+            <br></br>
+            <p>Junior Web Developer Intern at <strong>Transil Technologies Private Limited</strong>.</p>
+            <p>Worked on a web based education application using React and acquired decision-making, 
+            communication and planning skills by working in a collaborative environment.</p>
+            <br></br>
             <h3>Interests</h3>
             <br></br>
             <div className="row">
