@@ -12,15 +12,13 @@
   text-align: center;
   line-height: 50px;
   margin-top: 5px;
-  color: #e76f51;
+  color: #40916c;
+  font-weight: 500;
 }
 
 .Home .Image {
   width: 70%;
   align-self: center;
-  /* margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5px; */
 }
 
 .Home .Image img {

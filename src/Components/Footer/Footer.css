@@ -30,7 +30,8 @@ ul {
   justify-content: space-evenly;
 }
 .mail .email {
-  color: #e76f51;
+  /* color: #e76f51; */
+  color: #40916c;
   text-decoration: none;
   vertical-align: middle;
   display: none;
@@ -38,7 +39,8 @@ ul {
 
 @media (min-width: 800px) {
   .mail .email {
-    color: #e76f51;
+    /* color: #e76f51; */
+    color: #40916c;
     text-decoration: none;
     display: inline;
     vertical-align: middle;

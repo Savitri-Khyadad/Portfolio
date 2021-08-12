@@ -27,7 +27,7 @@ function Carousels() {
             <Card>
               <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/images_todo.png`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h7">Task Manager</CardTitle>
+                <CardTitle fontSize="1.2em" width="100%">Task Manager</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div className="tooltip">A React Website
                     <span className="tooltiptext">A react app that lets you maintain all tasks at one place.</span>
@@ -41,7 +41,7 @@ function Carousels() {
             <Card>
               <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/babysworld.jpg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h7">Application for Baby Products</CardTitle>
+                <CardTitle fontSize="1.2em" width="100%">Application for Baby Products</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div className="tooltip">An Angular Website
                     <span className="tooltiptext">A full stack web application using MEAN stack for baby products.</span>
@@ -55,7 +55,7 @@ function Carousels() {
             <Card>
               <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/weather.jpg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h7">Current Weather App</CardTitle>
+                <CardTitle fontSize="1.2em" width="100%">Current Weather App</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div className="tooltip">A React website
                     <span className="tooltiptext">An app that shows the current weather of a city entered.</span>
@@ -67,9 +67,9 @@ function Carousels() {
           </Item>
           <Item>
             <Card>
-              <CardImg top width="93%" src={`${process.env.PUBLIC_URL}/machine_learning.jpeg`} alt="Card image cap" />
+              <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/machine_learning.jpeg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h7" width="100%">Maize Disease Classification</CardTitle>
+                <CardTitle fontSize="1.2em" width="95%">Maize Disease Classification</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div className="tooltip">An Android Application
                     <span className="tooltiptext">An android application using Keras that detects and classifies the disease in a maize leaf.</span>
@@ -81,9 +81,9 @@ function Carousels() {
           </Item>
           <Item>
             <Card>
-              <CardImg top width="90%" src={`${process.env.PUBLIC_URL}/burger.jpeg`} alt="Card image cap" />
+              <CardImg top width="95%" src={`${process.env.PUBLIC_URL}/burger.jpeg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h7">Burger Builder App</CardTitle>
+                <CardTitle fontSize="1.2em" width="100%" fontWeight="500">Burger Builder App</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div className="tooltip">A react website
                     <span className="tooltiptext">A react app to build and order customized burgers!.</span>

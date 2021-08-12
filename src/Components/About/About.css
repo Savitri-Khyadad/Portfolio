@@ -1,6 +1,9 @@
 .about {
   margin: 3%;
-  color: #e76f51;
+  /* color: #e76f51; */
+  color: #40916c;
+  font-size: large;
+  font-weight: 500;
 }
 
 .about ul {

@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e76f51;
+  /* background-color: #bee1e6; */
 }
 /* Hide scrollbar for chrome , safari and Opera */
 body::-webkit-scrollbar {

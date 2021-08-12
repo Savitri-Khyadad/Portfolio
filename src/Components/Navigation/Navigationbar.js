@@ -4,9 +4,12 @@ import { Link } from 'react-router-dom';
 import './Navigationbar.css';
 const Navigationbar = () => {
     const [show, setShow] = useState(false);
+    
+    // eslint-disable-next-line no-unused-vars
     const [width, setWidth] = useState(0);
     const checkScreen = () => {
         const w = window.innerWidth;
+        
         setWidth(w);
         if(w>800){
             setShow(true);
@@ -19,19 +22,19 @@ const Navigationbar = () => {
         return () => window.removeEventListener("resize",checkScreen);
     }, []);
 
-    const checkMenu = () => {
-        if(show===false)
-            return true
-        else
-            return false
-    }
+    // const checkMenu = () => {
+    //     if(show===false)
+    //         return true
+    //     else
+    //         return false
+    // }
 
-    const checkCross = () => {
-        if(show===true)
-            return true
-        else
-            return false
-    }
+    // const checkCross = () => {
+    //     if(show===true)
+    //         return true
+    //     else
+    //         return false
+    // }
     return (
         <nav className="Navigation-bar">
             <div className="Nav-items">

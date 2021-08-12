@@ -8,7 +8,8 @@
 }
 
 button.rec-dot {
-  background-color: #e76f51;
+  /* background-color: #e76f51; */
+  background-color: #40916c;
   box-shadow: 0 0 1px 3px rgba(231, 111, 81, 0.5);
 }
 
@@ -20,11 +21,13 @@ button.rec-dot:focus {
 
 .rec.rec-arrow {
   border-radius: 50%;
-  background-color: #e76f51;
+  /* background-color: #e76f51; */
+  background-color: #40916c;
 }
 
 .rec.rec-arrow:hover {
-  background-color: #f7c1b3;
+  /* background-color: #f7c1b3; */
+  background-color: #40916c;
 }
 
 .rec-carousel-item:focus {
@@ -35,7 +38,7 @@ button.rec-dot:focus {
 .butn {
   width: 60px;
   height: 30px;
-  background: linear-gradient(to bottom, #e76f51 0%, #e76f51 100%); /* W3C */
+  background: linear-gradient(to bottom, #40916c 0%, #40916c 100%); /* W3C */
   border: none;
   border-radius: 5px;
   position: relative;
@@ -62,7 +65,7 @@ button.rec-dot:focus {
   top: 1px;
   text-decoration: none;
 }
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
@@ -118,3 +121,7 @@ a{
 button {
   text-decoration: none;
 }
+/* 
+@media (min-width: 800px) {
+
+} */
