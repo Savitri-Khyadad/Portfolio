@@ -13,6 +13,11 @@ const breakPoints = [
 ];
 function Carousels() {
 
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
+
   return (
     <>
       {/* <h1 style={{ textAlign: "center" }}>Example to setup your carousel in react</h1> */}
@@ -28,7 +33,7 @@ function Carousels() {
                     <span className="tooltiptext">A react app that lets you maintain all tasks at one place.</span>
                   </div>
                 </CardSubtitle>
-                <Button className="butn"><a href="https://github.com/Savitri-Khyadad/task-manager">Open</a></Button>
+                <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/task-manager')}>Open</Button>
               </CardBody>
             </Card>
           </Item>
@@ -42,7 +47,7 @@ function Carousels() {
                     <span class="tooltiptext">A full stack web application using MEAN stack for baby products.</span>
                   </div>
                 </CardSubtitle>
-                <Button className="butn"><a href="https://github.com/Savitri-Khyadad/ecomm-baby-products">Open</a></Button>
+                <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/ecomm-baby-products')}>Open</Button>
               </CardBody>
             </Card>
           </Item>
@@ -56,35 +61,35 @@ function Carousels() {
                     <span class="tooltiptext">An app that shows the current weather of a city entered.</span>
                   </div>
                 </CardSubtitle>
-                <Button className="butn">Open</Button>
+                <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Weather-app')}>Open</Button>
               </CardBody>
             </Card>
           </Item>
           <Item>
             <Card>
-              <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/images_todo.png`} alt="Card image cap" />
+              <CardImg top width="93%" src={`${process.env.PUBLIC_URL}/machine_learning.jpeg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h6">Project 4</CardTitle>
+                <CardTitle tag="h7" width="100%">Maize Disease Classification</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
-                  <div class="tooltip">A react website
-                    <span class="tooltiptext">Tooltip text</span>
+                  <div class="tooltip">An Android Application
+                    <span class="tooltiptext">An android application using Keras that detects and classifies the disease in a maize leaf.</span>
                   </div>
                 </CardSubtitle>
-                <Button className="butn">Open</Button>
+                <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Maize-Disease-Classification')}>Open</Button>
               </CardBody>
             </Card>
           </Item>
           <Item>
             <Card>
-              <CardImg top width="100%" src={`${process.env.PUBLIC_URL}/images_todo.png`} alt="Card image cap" />
+              <CardImg top width="90%" src={`${process.env.PUBLIC_URL}/burger.jpeg`} alt="Card image cap" />
               <CardBody>
-                <CardTitle tag="h6">Project 5</CardTitle>
+                <CardTitle tag="h7">Burger Builder App</CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">
                   <div class="tooltip">A react website
-                    <span class="tooltiptext">Tooltip text</span>
+                    <span class="tooltiptext">A react app to build and order customized burgers!.</span>
                   </div>
                 </CardSubtitle>
-                <Button className="butn">Open</Button>
+                <Button className="butn" onClick={() => openInNewTab('https://github.com/Savitri-Khyadad/Burger-builder-app')}>Open</Button>
               </CardBody>
             </Card>
           </Item>
