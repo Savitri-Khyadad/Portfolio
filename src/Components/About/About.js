@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
     return (
         <div className="about">
-            <p>A self-motivated and ambitious individual seeking a career opportunity as a full stack web developer. A quick learner with exceptional problem solving and analytical skills with an ability to collaborate.</p>
+            <p>A self-motivated and an ambitious individual seeking a career opportunity as a full stack web developer. A quick learner with exceptional problem solving and analytical skills with an ability to collaborate.</p>
             <br></br>
             <h3>Skills</h3>
             <br></br>
