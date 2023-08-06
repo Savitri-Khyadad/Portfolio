@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Savitri-Khyadad/Portfolio/static/css/main.d9fd3610.css",
+    "main.js": "/Savitri-Khyadad/Portfolio/static/js/main.95bb246e.js",
+    "static/js/787.f0d48fe9.chunk.js": "/Savitri-Khyadad/Portfolio/static/js/787.f0d48fe9.chunk.js",
+    "index.html": "/Savitri-Khyadad/Portfolio/index.html",
+    "main.d9fd3610.css.map": "/Savitri-Khyadad/Portfolio/static/css/main.d9fd3610.css.map",
+    "main.95bb246e.js.map": "/Savitri-Khyadad/Portfolio/static/js/main.95bb246e.js.map",
+    "787.f0d48fe9.chunk.js.map": "/Savitri-Khyadad/Portfolio/static/js/787.f0d48fe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9fd3610.css",
+    "static/js/main.95bb246e.js"
+  ]
+}
